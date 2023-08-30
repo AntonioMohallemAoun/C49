@@ -1,0 +1,48 @@
+body{
+    text-align: center;     
+    background-color: rgb(255, 97, 97);
+    
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+
+.header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nome{
+    margin-left: 50px;
+}
+
+.menu{
+    color: white;
+    margin-right: 50px;
+    margin-top: 50px;
+    
+}
+
+.menu:hover{
+    font-size: 20px;
+}
+
+.gride{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.rodape{
+    justify-content: flex-end;
+    margin-left: -900px;
+    margin-top: 200px;
+}
